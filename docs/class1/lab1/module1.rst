@@ -39,6 +39,6 @@ components:
         - **FrontEnd:** 10.1.10.0/24
         - **BackEnd:** 10.1.20.0/24
         - **External:** 10.1.20.250
-      - ``admin``/``AgilityIsFun123!``
+      -
 
 

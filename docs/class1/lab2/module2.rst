@@ -1,14 +1,14 @@
-Lab 2 – Join UDF Course and Connect To Workstation
+Lab 2 – configure pre requites for lab enviroemnt 
 -----------------------------------
 
-Welcome to the Telemetry Streaming course! In this course we will:
+Welcome to the F5 Automation using terrfiorm and ansible course! In this course we will:
 
-Explore F5 Telemetry Streaming, by using a declarative API model to forward, aggregate and analyze BIG-IP telemetry.
+Explore how to spin up a and spin down a F5 , by using a declarative API model to forward, aggregate and analyze BIG-IP in a cloud enviroment (azure).
 
 During this hands-on lab you will learn the following:
 •	The difference between a declarative and imperative API interface. 
-•	How to create and validate a JSON declaration for Telemetry Streaming.
-•	How to use Telemetry Streaming as a part of the F5 Automation Toolchain.
+•	implemntation of a CI/CD pipeline to manage your F5.
+•	implemntation of the F5 automation toolchain.
 
 
 This lab will go through initial setup and add you to the Telemetry Streaming Agility 2020 workstation.  
@@ -17,44 +17,37 @@ This lab will go through initial setup and add you to the Telemetry Streaming Ag
 
 Follow these steps to complete this lab:
 
-**Exercise 1 - Setting Up Lab Workstation**
+**Exercise 1 - prerequisit- must have  a  github**
 
 
 #. Open your web browser
-#. Navigate to https://udf.f5.com/courses
-#. Select Telemetry Streaming Agility 2020. 
-#. Click on the 'Details' tab within the Telemetry Streaming Agility 2020 UDF block. You should see the following:
+#. Navigate to https://github.com/ (or https://github.com/join if you do not have a account) 
+#. sign in/ register an account
 
-    .. image:: ./start.jpg
+    .. image:: ./github-create.png
 
-#. Click 'Start' to launch your workstation. 
+**Exercise 2 - prerequisit - azure subsciption  check**
 
-#. After your workstation is deployed, click the 'Components' tab:
+In this course, you must be able to create resources using azure and have a brief understanding of azure terminology. 
+To check if you have appropriate permissions:
 
-    .. image:: ./components.jpg
+1.	Check your that you have acess to  your designated azure subscription
 
-**Exercise 2 - RDP to Windows Jumphost**
+#. Log onto portal.azure.com
+#. Sign in with your work credentials
+#. Click on the icon shown in the image below and make sure you are in your apporiate subscription group
 
-In this exercise, we will connect to the Windows Jumphost.   
+     .. image:: ./subsciption.png
 
-#. Under the 'Systems' tab, locate the 'Jumphost' block. 
+#. Click resource groups, if you see the image below, please raise your hand as you may not have the appropriate azure.
+Subscription to complete the remainder of the lab. 
 
-    .. image:: ./systems.jpg
+    .. image:: ./resource.png
 
-#. Click 'Access' -> 'RDP' and this will download a '.rdp' file to your local machine. 
+#. If you are capable of creating resources, and see the below image, continue with lab. 
+(your environment may/may not already have allocated resources)
 
-    .. image:: ./access.jpg
+    .. image:: ./group.png
 
-#. Click 'Details' in the 'Jumphost' block and copy the administrator password. You will need this in the next step to access your RDP. 
 
-    .. image:: ./credentials.jpg
-
-#. Once the RDP has downloaded, open the .rdp file and when prompted, select 'continue'. 
-
-#. When prompted for the Administrator password, paste into the password field the password we copied from the previous step. 
-
-    .. image:: ./loginrdp.jpg
-
-#. You should now be in your windows Jumphost. 
-
-    .. image:: ./windows.jpg
+**Exercise 3 - prerequisit - azure subsciption  check**

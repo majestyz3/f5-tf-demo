@@ -1,10 +1,10 @@
-F5 Agility Labs - Index
+F5 automation labs- Index
 =======================
 
-Welcome
+Welcome 
 -------
 
-Welcome to the |classbold| lab at F5 Agility |year|
+Welcome to the |classbold| lab 
 
 |repoinfo|
 

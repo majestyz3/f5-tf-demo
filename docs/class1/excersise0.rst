@@ -1,8 +1,8 @@
 Class - |classname|
 ===================
 
-Inh this Exercise you  will:
-- join the UDF course
+In this Exercise you  will:
+- join the UDF course FOR TEST
 - Connect to Windows host system via RDP
 - Login into the RDP 
 
