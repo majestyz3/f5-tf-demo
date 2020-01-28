@@ -1,15 +1,32 @@
-Lab 3 – Getting Familiar With Postman 
+Lab 3 – Continued Preperation of lab Environment
 -----------------------------------
 
-In this lab we will setup Postman, an API Development tool that will allow us to structure our API calls and interact with our BIG-IP.
-We will use Postman to query our BIG-IP's status and details of the RPM files needed to use and interact with the AS3 RESTful API.
+In this lab you will clone the repository from github and install  cheff inspec.
 
 ------------------------------------------------ 
 
-**Exercise 1 - Setting Up Postman Environment**
+**Exercise 1 - fork & clone repo **
+
+**NOTE:** if you have never used GitHub before, you will have to generate a new ssh key pair, the instuctions to do so can be found here  https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
-#. Open Postman
+#. Naviage to repo using link: https://github.com/mjmenger/terraform-azure-bigip-setup
+#. Fork the repo using the fork button displayed below. 
+
+    .. image:: ./fork.png
+
+
+GitHub should create a copy of the repository in your git. Now you’re ready to clone the repository to your own machine. As seen below, click the green clone button, and copy the web URL. 
+
+
+     .. image:: ./clone.png
+
+
+    #. Open VScode
+    #. In the upper right, click on terminal  => new terminal (or you can use existing one if you already have it up from previous steps) 
+    #. Navigate to a directory on your local machine where you wish to save the repository’s content.
+    #. Use command: 
+        #. Git clone (PASTE WEB URL HERE) 
 
 ------------------------------------------------ 
 

@@ -1,7 +1,7 @@
 Lab 2 – Getting Started
 -----------------------------------
 
-Welcome to the F5 Automation lab using terrfiorm and aAsible! In this course we will:
+Welcome to the F5 Automation lab using terraform and aAsible! In this course we will:
 
 Explore how to spin up a and spin down a F5 , by using a declarative API model to forward, aggregate and analyze BIG-IP in a cloud enviroment (azure).
 
@@ -13,7 +13,7 @@ During this hands-on lab you will learn the following:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Exercise 1 - prerequisit- must have  a  github**
+**Exercise 1 - log into/create github account**
 
 
 #. Open your web browser
@@ -22,7 +22,9 @@ During this hands-on lab you will learn the following:
 
     .. image:: ./github-create.png
 
-**Exercise 2 -  azure subsciption  check**
+------------------------------------------------ 
+
+**Exercise 2 - azure subsciption check**
 
 In this course, you must be able to create resources using azure and have a brief understanding of azure terminology. 
 To check if you have appropriate permissions:
@@ -43,6 +45,7 @@ To check if you have appropriate permissions:
 
     .. image:: ./group.png
 
+------------------------------------------------ 
 
 **Exercise 3 - install Visual Studio Code**
 
@@ -52,6 +55,7 @@ If you do not have VScode installed, follow the instructions below. If you alrea
 #. Navigate to https://code.visualstudio.com/
 #. follow instructions to  install  Vscode
 
+------------------------------------------------ 
 
 **Exercise 4 -  Install  Azure  CLI**
 
@@ -66,8 +70,8 @@ On mac – (bash)
 
 On windows – (PowerShell)
 
- #. Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'
- 
+ #. paste the code into powershell 
+    #. Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'
  #. Log into azure using command “az login” 
  #. The command line will open your defult browser and load an azure sign in page.
 
@@ -82,5 +86,6 @@ so it relies on finding the installed Python version. A possible fix is to insta
     #. brew link --overwrite python3
 
 
-for further instructions, feel you can read the complete docs at https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest
+For further instructions, feel you can read the complete docs at https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest
 
+------------------------------------------------ 
